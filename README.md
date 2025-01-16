@@ -2,9 +2,13 @@
 
 ### Structure du projet :
 db.js : Gère les connexions aux bases de données MongoDB et Redis.
+
 env.js : Contient les variables d'environnement.
+
 routes/ : Contient les routes de l'application.
+
 controllers/ : Gère la logique des requêtes.
+
 services/ : Contient les services métier.
 
 ### Installation et lancement  : 
