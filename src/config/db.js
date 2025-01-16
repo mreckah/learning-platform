@@ -1,7 +1,9 @@
 // Question : Pourquoi créer un module séparé pour les connexions aux bases de données ?
-// Réponse : Maintenabilité : Toute modification liée à la gestion des bases de données peut être effectuée en un seul endroit.
+// Réponse : Pour améliorer la maintenabilité en centralisant les modifications liées à la gestion des bases de données.
+
 // Question : Comment gérer proprement la fermeture des connexions ?
-// Réponse : mongoClient.close() et redisClient.quit()).
+// Réponse : Utiliser des méthodes comme mongoClient.close() pour MongoDB et redisClient.quit() pour Redis.
+
 
 const { MongoClient } = require('mongodb');
 const redis = require('redis');
