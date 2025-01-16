@@ -8,7 +8,7 @@ controllers/ : Gère la logique des requêtes.
 services/ : Contient les services métier.
 
 ### Installation et lancement  : 
-###{ Cloner mon dépot :
+#### Cloner mon dépot :
 ```
 git clone https://github.com/mreckah/learning-platform-nosql
 ```
