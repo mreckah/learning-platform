@@ -1,12 +1,4 @@
-# # Learning Platform
-
-### Installation et lancement  : 
-```Cloner mon dépot :
-git clone https://github.com/mreckah/learning-platform-nosql
-```
-```Lancer le Projet :
-npm start
-```
+# Learning Platform
 
 ### Structure du projet :
 db.js : Gère les connexions aux bases de données MongoDB et Redis.
@@ -15,13 +7,21 @@ routes/ : Contient les routes de l'application.
 controllers/ : Gère la logique des requêtes.
 services/ : Contient les services métier.
 
+### Installation et lancement  : 
+```
+#Cloner mon dépot :
+git clone https://github.com/mreckah/learning-platform-nosql
+```
+```
+#Lancer le Projet :
+npm start
+```
+
 ### Choix techniques :
 Utilisation de MongoDB et Redis pour leur complémentarité (NoSQL + cache).
 Séparation des responsabilités dans des modules dédiés.
-Gestion centralisée des erreurs et des connexions.
 
 ### Réponses aux questions posées dans les commentaires:
-
 ##### Pourquoi créer un module séparé pour les connexions aux bases de données ?
 Pour améliorer la maintenabilité en centralisant les modifications liées à la gestion des bases de données.
 ##### Comment gérer proprement la fermeture des connexions ?
@@ -54,6 +54,10 @@ Ne jamais commettre des clés API, mots de passe, identifiants de base de donné
 Pour sécuriser les informations sensibles et faciliter la configuration des environnements sans modifier le code source.
 
 ### Demonstration
-![img2](https://github.com/user-attachments/assets/bbd341e1-1bba-479f-a978-0134fcec62bf)
 ![img1](https://github.com/user-attachments/assets/76770a39-45ec-45f8-9d54-4dc64a3b9ce1)
-```
+
+![image](https://github.com/user-attachments/assets/a1af9369-0cc0-47f3-ae52-deb27c7a2662)
+
+![img2](https://github.com/user-attachments/assets/bbd341e1-1bba-479f-a978-0134fcec62bf)
+
+
