@@ -1,7 +1,8 @@
 // Question : Comment gérer efficacement le cache avec Redis ?
-// Réponse :Utiliser des stratégies d'expiration adaptées, invalider le cache lors de mises à jour et surveiller les performances.
+// Réponse :Utiliser des fonctions génériques pour stocker set et récupérer get des données avec un TTL pour éviter les données obsolètes.
 // Question: Quelles sont les bonnes pratiques pour les clés Redis ?
-// Réponse :Utiliser un format structuré, éviter les clés trop longues et définir des durées d'expiration.
+// Réponse :Utilisez des clés structurées et explicites (ex : user:123:profile) pour faciliter la gestion et éviter les conflits.
+
 
 const redisClient = require('../config/db'); 
 // Fonctions utilitaires pour Redis
