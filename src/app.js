@@ -1,5 +1,8 @@
-// Question: Comment organiser le point d'entrée de l'application ?
+//Question: Comment organiser le point d'entrée de l'application ?
+//Réponse : Créez un fichier principal (souvent server.js ou app.js) pour centraliser les connexions aux bases de données, la configuration des middlewares et le montage des routes.
 // Question: Quelle est la meilleure façon de gérer le démarrage de l'application ?
+//Réponse : Utilisez une fonction asynchrone pour gérer les connexions aux bases de données et démarrez le serveur. Implémentez une gestion propre des erreurs et des signaux système (comme SIGINT ou SIGTERM) pour un arrêt en douceur.
+
 const express = require('express');
 const config = require('./config/env');
 const db = require('./config/db');
