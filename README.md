@@ -24,6 +24,7 @@ npm start
 
 ### Choix techniques :
 Utilisation de MongoDB et Redis pour leur complémentarité (NoSQL + cache).
+
 Séparation des responsabilités dans des modules dédiés.
 
 ### Réponses aux questions posées dans les commentaires:
@@ -63,6 +64,8 @@ Pour sécuriser les informations sensibles et faciliter la configuration des env
 
 ![image](https://github.com/user-attachments/assets/a1af9369-0cc0-47f3-ae52-deb27c7a2662)
 
-![img2](https://github.com/user-attachments/assets/bbd341e1-1bba-479f-a978-0134fcec62bf)
+![image](https://github.com/user-attachments/assets/2365bf48-1681-4134-a87b-a51690a13e08)
+
+![image](https://github.com/user-attachments/assets/322e6aa5-dac9-4170-a1db-d12a08ef37dd)
 
 
